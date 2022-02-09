@@ -42,6 +42,12 @@ To start the blockchain, run the following command in the root directory of the 
 
 After that, it's possible to deploy Swarm smart contracts
 
+spin up node in docker
+```sh
+docker-compose build
+docker-compose run -u root --rm --service-ports nod_dev_env
+```
+execute in the container
 ```sh
 npm run migrate:contracts
 ```

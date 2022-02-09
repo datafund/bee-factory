@@ -2,7 +2,7 @@ module.exports = {
 
   networks: {
     development: {
-      host: "127.0.0.1",
+      host: "swarm-test-blockchain",
       port: 9545,
       network_id: "4020",
       gasPrice: "10000000000", //10 gwei
@@ -11,8 +11,8 @@ module.exports = {
 
   compilers: {
     solc: {
-      version: "0.6.12",    // Fetch exact version from solc-bin (default: truffle's version)
-      docker: true,
+      version: "0.8.1",    // Fetch exact version from solc-bin (default: truffle's version)
+      docker: false,
       settings: {
         optimizer: {
           enabled: true,

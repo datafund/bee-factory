@@ -1,4 +1,4 @@
 node_modules/
-build/
+#build/
 # In case of building bee image, the bee source code will be cloned to this folder
 bee/
